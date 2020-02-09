@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Make Momentum!</title>
+
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <header></header>
+        <div class="js-weather"></div>
+        <div class="container">
+            <div class="js-clock">
+                <h1 class="js-title">00:00</h1>
+            </div>
+
+            <div class="section-username">
+                <form class="js-form form">
+                    <input type="text" placeholder="What is your name?" />
+                </form>
+            </div>
+
+            <div class="section-toDoList">
+                <form class="js-toDoForm">
+                    <input type="text" placeholder="Write a todo" />
+                </form>
+                <div class="toDoList-contents">
+                    <div>
+                        <h2 class="title">Pending</h2>
+                        <ul class="js-pendingList"></ul>
+                    </div>
+                    <div>
+                        <h2 class="title">Finished</h2>
+                        <ul class="js-finishedList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./clock.js"></script>
+        <script src="./greeting.js"></script>
+        <script src="./todo.js"></script>
+        <script src="./bg.js"></script>
+        <script src="./weather.js"></script>
+    </body>
+</html>
