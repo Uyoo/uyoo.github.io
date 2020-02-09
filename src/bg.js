@@ -7,7 +7,7 @@ const handleImgLoad = () => {
 
 const paintImage = imgNumber => {
     const image = new Image();
-    image.src = `./images/${imgNumber + 1}.jpg`;
+    image.src = `./src/images/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.prepend(image);
 
